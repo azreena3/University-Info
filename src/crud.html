@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="crud.css" />
+</head>
+<body>
+    <div class="headercontainer">
+        <div class="topnav">
+            <a href="#" onclick="self.close();">Exit</a>
+            <a class="active" href="crud.html">Feedback</a>
+            <a href="index.html">Home</a></div>
+    </div>     
+
+    <div class="container">
+        <img src="tower.jpg" width="100%" height="750px">
+        <div class="box">
+        <div class="article">
+        <form >
+            <!--input file name-->
+        <div class="form-group">
+            <label>File Name</label> <br>
+            <input type="text" id="fileName" class="form-control">
+        </div> <!--tutup form gp-->
+        <br><br>
+        <div class="form-group">
+            <!--input feedback from user-->
+            <label>Feedback University</label>
+            <textarea id="fileContents" class="form-control" rows="5"></textarea>
+          </div> <!--tutup form gp-->
+        </form>
+        <br><br>
+        <!--button create-->
+        <button id="btnCreate" class="btn btn-default">Create</button>
+        <button id="btnRead" class="btn btn-default">Read</button>
+        <button id="btnDelete" class="btn btn-default">Delete</button>
+        <button id="btnUpdate" class="btn btn-default">Update</button>
+        </div><!--tutup box-->
+      </div>
+    </div> <!--tutup coontainer-->
+      <script src="crud.js"></script></div>
+
+</body>
+</html>

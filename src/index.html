@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>University Application</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!--Navigate bar-->
+    <div class="headercontainer">
+      <div class="topnav">
+        <a href="#" onclick="self.close();">Exit</a>
+        <a href="crud.html">Feedback</a>
+        <a class="active" href="index.html">Home</a>
+        
+      </div>
+      <!--image-->
+    <img src="header.jpg" width="1535px" height="230px">
+    <br><br>
+    <div class="row">
+      <div class="col col-1"></div>
+      <div class="col col-2"><img src="uni1.jpg" class="a">
+      <p>University of Otago</p>
+    </div>
+      <div class="col col-2"><img src="uni2.jpg" class="a">
+        <p>Tawson University</p>
+      </div>
+      <div class="col col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col col-1"></div>
+      <div class="col col-2"><img src="uni3.jpg" class="a">
+      <p>University Teknologi Petronas</p>
+      </div>
+      <div class="col col-2"><img src="uni4.jpeg" class="a">
+      <p>United States Air Force Academy</p>
+      </div>
+      <div class="col col-1"></div>
+    </div>
+    <div class="article">
+      <!--input country from textbox-->
+    <input type="text" placeholder="Enter Country" id="country_input"> 
+    <button onclick="buttonClicked()" id="search" > Search</button>
+    <script src="main.js"></script>
+     <br><br>
+    <table>
+      <tr>
+        <!--display table -->
+        <td class="head">University Name</td>
+        <td class="head">URL Link</td>
+      </tr>
+      <tr>
+        <td><p class="nameone"></p></td>
+        <td><p class="unione"></p></td>
+      </tr>
+      <tr>
+      <td><p class="nametwo"></p></td>
+      <td><p class="unitwo"></p></td>
+    </tr>
+    <tr>
+      <td><p class="namethree"></p></td>
+      <td><p class="unithree"></p></td>
+    </tr>
+    <tr>
+      <td><p class="namefour"></p></td>
+      <td><p class="unifour"></p></td>
+    </tr>
+    <tr>
+      <td><p class="namefive"></p></td>
+      <td><p class="unifive"></p></td>
+    </tr>
+    </table>
+
+    </div>
+
+  </body>
+</html>
